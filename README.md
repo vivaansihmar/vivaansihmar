@@ -6,7 +6,7 @@
 - Built with standard web technologies—ideal for customization and expansion.
 
 
-just click at the link below ✨✨.
+just click at the link  ✨✨.
 https://vivaansihmar.github.io/vivaansihmar
 
 <!--
