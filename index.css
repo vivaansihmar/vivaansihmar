@@ -329,7 +329,10 @@ section {
   gap: 15px;
 }
 
-.project-link {
+/* Project, Achievement, Certificate link buttons */
+.project-link,
+.achievement-link,
+.certificate-link {
   color: #ffffff;
   text-decoration: none;
   padding: 8px 15px;
@@ -339,11 +342,17 @@ section {
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 1px;
+  display: inline-block;
+  background: rgba(255, 107, 53, 0.05);
 }
 
-.project-link:hover {
+.project-link:hover,
+.achievement-link:hover,
+.certificate-link:hover {
   background: #ff6b35;
   color: #000;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 107, 53, 0.3);
 }
 
 /* Achievements Section */
@@ -433,7 +442,6 @@ section {
   margin-bottom: 10px;
 }
 
-/* Footer */
 footer {
   background: rgba(0, 0, 0, 0.9);
   padding: 40px 50px;
@@ -441,7 +449,6 @@ footer {
   border-top: 1px solid rgba(255, 107, 53, 0.2);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -539,7 +546,6 @@ footer {
   }
 }
 
-/* Scroll animations */
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -550,8 +556,6 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
-
-/* Additional animations */
 @keyframes glow {
   0%,
   100% {
@@ -565,8 +569,6 @@ footer {
 .logo:hover {
   animation: glow 2s ease-in-out infinite;
 }
-
-/* Smooth scrolling behavior */
 html {
   scroll-behavior: smooth;
 }
